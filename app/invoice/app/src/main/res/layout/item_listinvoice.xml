@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    app:cardCornerRadius="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/list_noInvoice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="#FT/12/02/2021"
+                android:textSize="14pt"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/list_noDetailPO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PO-1/01/2021 - 2801923813 - Wirda Anggraeni"
+                android:textColor="#464242" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/list_statusInvoice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="right|bottom"
+            android:text="Active"
+            android:textColor="#3BBA56"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

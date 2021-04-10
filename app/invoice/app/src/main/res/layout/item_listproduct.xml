@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="5dp"
+    android:background="#ffffff"
+    app:cardCornerRadius="5dp">
+
+    <LinearLayout
+        android:id="@+id/llListProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/kdProduct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No. #B7623991"
+                android:textSize="9pt"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nmProduct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Monitor Led Samsung 22SF350"
+                android:textSize="4.7pt" />
+
+            <TextView
+                android:id="@+id/ttlUnit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Ordered 5 /unit"
+                android:textSize="7pt"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/hrgDiscount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Discount IDR. 159800"
+                android:textSize="7pt"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/hrgSatuan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="IDR. 1325000"
+                android:textSize="9pt"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="4.7pt" />
+
+            <TextView
+                android:id="@+id/hrgCoret"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingTop="10dp"
+                android:text="IDR. 6625000"
+                android:textSize="7pt"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/hrgPotong"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom|right"
+                android:text="IDR. 1438200"
+                android:textSize="7pt"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+<!--    <LinearLayout-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:orientation="horizontal">-->
+<!--        <TextView-->
+<!--            android:id="@+id/jmlOrder"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:text="Ordered 5" />-->
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/unit"-->
+<!--            android:layout_gravity="bottom"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:text=" /Unit" />-->
+<!--    </LinearLayout>  -->
+</androidx.cardview.widget.CardView>
+
+
